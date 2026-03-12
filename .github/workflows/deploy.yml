@@ -25,4 +25,4 @@ jobs:
 
       - name: Upload file to S3
         run: |
-          aws s3 cp hello.txt s3://oidc-demo-bucket-123/
+          aws s3 cp hello.txt s3://cloudops-week5-demo/
